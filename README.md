@@ -7,4 +7,4 @@
 6. Ahora como tenemos los datos guardados, si hacemos git checkout -- . o en vez del . el nombre del archivo , lo devolvera al estado del ultimo commit, ya hayas modificado el archivo o lo hayas borrado por equivocación o lo que sea.
 7. Ahora vamos a hacer un commit con un mensaje escrito mal aposta para luego arreglarlo con git commit --amend
 8. Para crear una nueva rama hacemos git checkout -b (branch) y el nombre de la rama a crear, en este caso usamos develop mismo.
-9. 
+9. Una vez hemos hecho el commit en la rama secundaria, se guarda ahi lo que hayamos creado pero no se pasa automaticamente al a rama principal ni a ninguna otra, hay que hacerlo con el comando git merge y la rama a unir.
