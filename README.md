@@ -11,3 +11,5 @@
 10. Ahora para borrar una rama hacemos uso del comando git branch -d (delete) y el nombre de la rama a borrar.
 11. Ahora haremos el despliegue del repositorio a un repositorio remoto en git, donde nos da la opcion de crear un repositorio nuevo, o crear un repositorio a partir de un repositorio local existente usando el url que te da tu repositorio remoto en git.
 12. Una vez creado el repositorio, cojemos el enlace y lo introducimos en el terminal.
+13. Despues, introducimos el comando git push -u origin master (o como se llame la rama principal que queramos subir al repositorio remoto) y se copiara el repositorio local al repositorio remoto en github.
+14. Ahora cada vez que realicemos cambios , deberemos desplegar otra vez nuestro repositorio haciendo uso del comando git push despues de guardar todos los cambios con git add y git commit.
